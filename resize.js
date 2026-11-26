@@ -1,0 +1,1 @@
+window.addEventListener("resize",function(){document.querySelectorAll(".accordion-content.expanded").forEach(function(p){var i=p.firstElementChild;if(!i)return;var c=getComputedStyle(p);p.style.height="auto";var h=Math.max(i.scrollHeight,(i.firstElementChild||i).scrollHeight)+(parseFloat(c.paddingTop)||0)+(parseFloat(c.paddingBottom)||0);p.style.height=h+"px"})});

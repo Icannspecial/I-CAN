@@ -1,0 +1,9 @@
+{
+  "name": "ican-special-needs-foundation-website",
+  "version": "1.0.0",
+  "description": "Static website for I CAN SPECIAL NEEDS FOUNDATION (flat structure, no build step).",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8000"
+  }
+}
